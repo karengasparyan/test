@@ -1,4 +1,4 @@
-service: holidayswap
+service: aws-node-express-api
 
 frameworkVersion: "3"
 
