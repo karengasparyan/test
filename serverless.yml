@@ -1,4 +1,4 @@
-service: aws-node-express-api
+service: test-serverless
 
 frameworkVersion: "3"
 
@@ -6,7 +6,7 @@ provider:
   name: aws
   region: us-east-1
   runtime: nodejs16.x
-  profile: karengasparyan
+  profile: holidayswap
   iam:
     role:
       statements: # permissions for all of your functions can be set here
