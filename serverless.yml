@@ -6,7 +6,7 @@ provider:
   name: aws
   region: us-east-1
   runtime: nodejs16.x
-  profile: holidayswap
+  profile: karengaspan
   iam:
     role:
       statements: # permissions for all of your functions can be set here
