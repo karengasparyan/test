@@ -19,5 +19,5 @@ provider:
             - 'arn:aws:s3:::holidayswap-local/*'
 functions:
   lambda-s3-image-handler:
-    handler: index.handler
+    handler: app
     timeout: 10
