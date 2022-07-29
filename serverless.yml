@@ -1,11 +1,11 @@
-service: test-serverless
+service: test
 
 frameworkVersion: "3"
 
 provider:
   name: aws
   region: us-east-1
-  runtime: nodejs16.x
+  runtime: nodejs14.x
   profile: karengaspan
   iam:
     role:
@@ -19,5 +19,5 @@ provider:
             - 'arn:aws:s3:::holidayswap-local/*'
 functions:
   lambda-s3-image-handler:
-    handler: app
+    handler: index.handler
     timeout: 10
