@@ -1,4 +1,4 @@
-service: test
+service: test-serverless
 
 frameworkVersion: "3"
 
