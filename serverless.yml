@@ -1,4 +1,5 @@
 service: test-serverless
+app: test
 
 frameworkVersion: "3"
 
