@@ -8,3 +8,12 @@ https://www.youtube.com/watch?v=p2LBRO2M48g
 Access key ID: AKIAIOSFODNN7EXAMPLE
 
 Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+
+
+Разбираем Event loop на примерах | микро, макро таски, nextTick, setImmediate
+
+syncron and syncron in Promises
+process.nextTick(any fanctions run first)
+microtasks(Promisses)
+macrotasks(callbacs, setTimeoaut, setImmediate) setImmediate in collback function run before setTimeout(0)
